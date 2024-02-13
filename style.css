@@ -106,3 +106,54 @@ body {
 .anne {
   margin-top: 40px;
 }
+@media screen and (max-width: 400px) {
+  .pr-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pr-text {
+    font-size: 10px;
+    width: 75%;
+    height: auto;
+    gap: 10px;
+  }
+  .pr-text span {
+    font-size: 30px;
+  }
+  .section1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .rate {
+    margin-right: 0;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .rate-star {
+    width: auto;
+    align-items: center;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .comment {
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    padding: 10px;
+  }
+}
